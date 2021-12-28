@@ -48,7 +48,7 @@ game.onUpdateInterval(500, function () {
             Fruit = sprites.create(assets.image`cake`, SpriteKind.Food)
             Fruit.setPosition(randint(0, 256), randint(0, 256))
         }
-        myEnemy = sprites.create(assets.image`Apider`, SpriteKind.Enemy)
+        myEnemy = sprites.create(assets.image`Spider`, SpriteKind.Enemy)
         myEnemy.follow(snake, 15)
         Level = 1
     } else if (Cakes == 0 && Level == 1) {
